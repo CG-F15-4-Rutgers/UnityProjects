@@ -14,11 +14,11 @@ public class KyleAnimationScript : MonoBehaviour {
 		float move = Input.GetAxis("Vertical");
 		anim.SetFloat("Speed", move);
 
-		if(Input.GetKeyDown(KeyCode.RightShift)) {
+		if(Input.GetKeyDown(KeyCode.RightShift)||Input.GetKeyDown(KeyCode.LeftShift)) {
 			anim.SetBool("Sprint", true);
 		}
 
-		if(Input.GetKeyUp(KeyCode.RightShift)) {
+		if(Input.GetKeyUp(KeyCode.RightShift)||Input.GetKeyUp(KeyCode.LeftShift)) {
 			anim.SetBool("Sprint", false);
 		}
 
