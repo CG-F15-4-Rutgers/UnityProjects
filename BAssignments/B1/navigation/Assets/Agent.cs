@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class Agent : MonoBehaviour {
-	public Transform target;
+	public GameObject target;
 	NavMeshAgent agent;
+
+
 	// Use this for initialization
 	void Start () {
 		agent = GetComponent<NavMeshAgent>();
@@ -11,6 +13,6 @@ public class Agent : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		agent.SetDestination(target.position);
+		agent.SetDestination(target.transform.position);
 	}
 }
