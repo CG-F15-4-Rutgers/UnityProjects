@@ -1,9 +1,7 @@
-#Group Name
+#CG-F15-4-Rutgers
 ######Unity Projects - CG Fall 2015 @ Rutgers
 ######By: *[Jonathan M. Risinger](www.github.com/JMRisinger), [Anisha Mohan](www.github.com/anishamohan), [Changling Huang](www.github.com/changlingh)
 Check out our [blog](http://cg-f15-4.blogspot.com/)
-
-![](https://pbs.twimg.com/profile_images/415882880351342592/NRDpz1Xh.jpeg)
 
 ###B1: Navigation and Animation
 ![](http://i.imgur.com/vTKCyAh.png)
